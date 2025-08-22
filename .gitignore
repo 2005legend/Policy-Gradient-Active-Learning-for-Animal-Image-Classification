@@ -1,0 +1,49 @@
+# Large files and folders to exclude from GitHub
+data/
+checkpoints/
+logs/
+outputs/
+.ipynb_checkpoints/
+notebooks/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Large model files
+*.pth
+*.pkl
+*.h5
+*.ckpt
+
+# Dataset files
+*.tar.gz
+*.zip
+*.csv
+*.json
+*.parquet
+
+# Log files
+*.log
